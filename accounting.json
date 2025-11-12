@@ -1,0 +1,417 @@
+{
+  "accounting": {
+    "general.ledger": {
+      "create:journal.entry": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:journal.entry": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:journal.entry": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "list:journal.entry": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "account.payable": {
+      "create:account.payable": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:account.payable": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "list:account.payable": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:account.payable": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:payment.entry": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:payment.entry": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "account.receivable": {
+      "create:account.receivable": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:accountreceivablee": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "list:account.receivable": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:account.receivable": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:payment.entry": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:payment.entry": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "fixed.asset": {
+      "create:fixed.asset": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "scrap:fixed.asset": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:fixed.asset": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "cash.management.and.expenses": {
+      "create:petty.cash.request": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:expense": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:expense": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:cash.disbursement": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:cash.return": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:cash.return": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:expense.type": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:expense.items": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:cash.disbursement": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "list:petty.cash.request": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "list:cash.disbursement": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:petty.cash.request": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:cash.disbursement": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "settings": {
+      "edit:company.default": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:payment.parties": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "edit:payment.parties": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:items": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "edit:items": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "chart.of.accounts": {
+      "create:account": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:account": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "edit:account": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:audit.logs": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "report": {
+      "view:trial.balance": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:proft.and.loss.statement": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:balance.sheet": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:cash.flow.statement": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:general.ledger": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "export:trial.balance": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "export:proft.and.loss.statement": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "export:balance.sheet": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "export:cash.flow.statement": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "export:general.ledger": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "budget.and.cost.management": {
+      "create:budget": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:project": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:cost.center": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+
+      "edit:project": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "edit:cost.center": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "approve:budget": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:budget": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "banking.and.reconciliation": {
+      "create:bank.statement.upload": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:bank": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:account": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:bank.statement": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:reconciliation": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "create:bank.clearance": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:payment.entries": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    },
+    "sidebar": {
+      "view:accounting.masters": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:overview": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:cashflow": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:cash.management": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:cost_management": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:cost.centers": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:budgets": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:reports": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:settings": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:banking.and.reconciliation": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:accounts": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:setup": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      },
+      "view:audit.logs": {
+        "allow_all_users": true,
+        "allowed_roles": [],
+        "allowed_users": []
+      }
+    }
+  }
+}
